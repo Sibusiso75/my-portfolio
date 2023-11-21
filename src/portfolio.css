@@ -1,0 +1,294 @@
+
+@media screen and (max-width:767px){
+  body {
+    margin:0px;
+    padding:0px;
+    background:rgba(0, 0, 40, 0.702);
+    color:rgba(255, 255, 255, 0.711);
+  }
+  
+  h3{
+
+      color:white;
+      padding:5px;
+      border-bottom: 3px solid black;
+      font-size: normal;
+      width:fit-content;
+      
+  
+  }
+  
+  .todo-list-app-screenshot{
+    width:150px;
+    height:150px;
+    border-radius: 20px;
+  }
+  h4{
+    border: 2px dashed orange;
+    width: fit-content;
+    border-left: none;
+    border-top: none;
+  }
+  a:link{
+    display:row;
+    justify-content: space-evenly;
+    line-height: 10px;
+    border-top: none;
+    border-left:5px groove rgba(0, 0, 40, 0.489);
+    width:fit-content;
+   color:black;
+  }
+  
+  a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+    
+  }
+  .sibusiso {
+   color:white;
+    justify-content: center;
+    
+  }
+  .sibusiso:visited{
+    color:white;
+    justify-content: center;
+      }
+  a:visited{
+    color:black;
+    border-left:5px solid rgba(0, 0, 40, 0.702);
+
+  }
+  .todo-list-app-screenshot{
+    width:150px;
+    height:150px;
+    border-radius: 20px;
+    float:center;
+  }
+  .header{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 5px;
+    background:rgba(0, 0, 40, 0.702);
+    color:whitesmoke;
+  
+    
+  
+  }
+  nav {
+    background-color:navy;
+    color:white;
+    height:100vh;
+    width:30%;
+
+  }
+  .aboutMe {
+    padding:5px;
+     
+  
+  }
+  .projects, a {
+    display:flex;
+    padding:5px;
+    line-height: 2px;
+    flex-direction: column;
+
+  }
+
+
+
+}
+
+  
+@media screen  and (min-width:767px) and (max-width:1024px){
+  body {
+    margin:0px;
+    padding:0px;
+    background:rgba(0, 0, 40, 0.702);
+    color:rgba(255, 255, 255, 0.711);
+  }
+  h3{
+
+      color:white;
+      padding:5px;
+      border-bottom: 3px solid black;
+      width:fit-content;
+      
+  
+  }
+  
+  .todo-list-app-screenshot{
+    width:150px;
+    height:150px;
+    border-radius: 20px;
+  }
+  h4{
+    border: 2px dashed orange;
+    width: fit-content;
+    border-left: none;
+    border-top: none;
+  }
+  a:link{
+    display:row;
+    justify-content: space-evenly;
+    line-height: 10px;
+    border-top: none;
+    border-left:5px groove rgba(0, 0, 40, 0.489);
+    width:fit-content;
+   color:black;
+  }
+  
+  a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+    
+  }
+  .sibusiso {
+    color:white;
+    
+  }
+  .sibusiso:visited{
+    color:white;
+      }
+  a:visited{
+    color:black;
+    border-left:5px solid rgba(0, 0, 40, 0.702);
+
+  }
+  .todo-list-app-screenshot{
+    width:150px;
+    height:150px;
+    border-radius: 20px;
+    float:center;
+  }
+  .header{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 5px;
+    background:rgba(0, 0, 40, 0.702);
+    color:whitesmoke;
+  
+    
+  
+  }
+  nav {
+    background-color:navy;
+    color:white;
+    height:100vh;
+    width:30%;
+
+  }
+  .aboutMe {
+    padding:5px;
+     
+  
+  }
+  .projects, a {
+    display:flex;
+    padding:5px;
+    line-height: 2px;
+    flex-direction: column;
+
+  }
+
+
+}
+
+  @media screen and (min-width:1024px){
+    body {
+      margin:0px;
+      padding:0px;
+      background:rgba(0, 0, 40, 0.702);
+      color:rgba(255, 255, 255, 0.711);
+    }
+    h3{
+
+        color:white;
+        padding:5px;
+        border-bottom: 3px solid black;
+        width:fit-content;
+        
+    
+    }
+    
+    .todo-list-app-screenshot{
+      width:150px;
+      height:150px;
+      border-radius: 20px;
+    }
+    h4{
+      border: 2px dashed orange;
+      width: fit-content;
+      border-left: none;
+      border-top: none;
+    }
+    a:link{
+      display:row;
+      justify-content: space-evenly;
+      line-height: 10px;
+      border-top: none;
+      border-left:5px groove rgba(0, 0, 40, 0.489);
+      width:fit-content;
+     color:black;
+    }
+    
+    a:hover{
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+      
+    }
+    .sibusiso {
+      color:white;
+      
+    }
+    .sibusiso:visited{
+      color:white;
+    }
+    a:visited{
+      color:black;
+      border-left:5px solid rgba(0, 0, 40, 0.702);
+
+    }
+    .todo-list-app-screenshot{
+      width:150px;
+      height:150px;
+      border-radius: 20px;
+      float:center;
+    }
+    .header{
+      display:flex;
+      flex-direction: column;
+      text-align: center;
+      line-height: 5px;
+      background:rgba(0, 0, 40, 0.702);
+      color:whitesmoke;
+    
+      
+    
+    }
+    nav {
+      background-color:navy;
+      color:white;
+      height:100vh;
+      width:30%;
+
+    }
+    .aboutMe {
+      padding:5px;
+       
+    
+    }
+    .projects, a {
+      display:flex;
+      padding:5px;
+      line-height: 2px;
+      flex-direction: column;
+
+    }
+  
+  }
+  
