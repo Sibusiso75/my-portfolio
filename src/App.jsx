@@ -1,34 +1,44 @@
 import React from 'react'
 import "./portfolio.css"
-import {FaGithub,FaPhoneAlt, FaUserCircle} from "react-icons/fa"
-import {IoIosMail} from "react-icons/io"
+import {FaPhone} from "react-icons/fa"
+import {MdEmail} from "react-icons/md"
 
 
+ 
 function App() {
   return (
     <>
    <header className='header'>
-    <h1><FaUserCircle/>Sibusiso Matebese</h1>
     <span>
-      <p><IoIosMail/>SibusisoMatebese75@gmail.com</p>
-      <p><a href = "https://github.com/Sibusiso75" className='sibusiso'><FaGithub/></a></p>
-      <p><FaPhoneAlt/>+27 63... Request in email</p>
+    
+      <h1>
+      <img src="../dist/SibusisoMatebese'sPicture.png" alt="" 
+    style={{width:"90px", height:"90px", borderRadius:"50%"
+    }}/>
+    <p>    Sibusiso Matebese
+</p>
+      </h1>
+    </span>
+   
+    <span>
+      <p><MdEmail/>SibusisoMatebese75@gmail.com</p>
+          
+              
+      
+      <p><FaPhone/>+27 63... Request via email</p>
     </span>
    </header>
    <br />
- <a href="../public/Sibusiso Matebese.pdf" 
- style={{background:"rgba(0, 0, 40, 0.702)", width:"fitContent", padding:"10px"
-,color:"white", fontWeight:"bold", border:"none", textDecoration:"none",
-float:"right", borderRadius:"20px"}}
- >Download CV</a>  
+ 
    
    <main className='aboutMe'>
     <h3>About me</h3>
 <p>
-  My name is Sibusiso Matebese and I'm a front-end web developer based in Kariega, Eastern Cape.
+  I'm a front-end web developer based in Kariega, Eastern Cape.
   I love Technology, solving problems and learning new things. 
   I have built front-end web applications from meal recipe to ecommerce site.
   </p>
+
 
 <h3>Skills</h3>
 
@@ -36,20 +46,21 @@ float:"right", borderRadius:"20px"}}
   
 <ul>
 
-<li>Knowledge of HTML5, CSS3, JavaScript, React JS and Node JS</li>
+<li>Knowledge of HTML, CSS, JavaScript, React JS and Node</li>
 <li>Knowledge of responsive web design </li>
-<li>Knowledge of integrating a third party API into a web appplication </li>
+<li>Knowledge of integrating APIs into web appplications </li>
 <li>Knowledge of version control system such as git</li>
-<li>Knowledge of using ContextAPI and useReducer for state
+<li>Knowledge of ContextAPI and useReducer for state
   management in React application
 </li>
+<li>Excellent problem-solving skills and ability to adapt to new technologies quickly</li>
 </ul>
 
 <h3>Personal Projects</h3>
 	<p><b>1. Meal and cocktail recipe apps</b></p> 
  <a href="https://github.com/Sibusiso75/react-demo.git">Cocktail app repository</a>
-<a href="https://mealcocktailrecipes.onrender.com">Meal recipe App</a>
-<a href="https://cocktailrecipes.onrender.com">Cocktail recipe App</a>
+ <a href="https://mealcocktailrecipes.onrender.com">Meal recipe App</a>
+ <a href="https://cocktailrecipes.onrender.com">Cocktail recipe App</a>
 
 <ul>
   <li>
@@ -78,10 +89,10 @@ float:"right", borderRadius:"20px"}}
   <p>
     <b>3. React-ecommerce-site</b>
     </p> 
-<a href="https://github.com/Sibusiso75/react-demo.git">E-commerce app repository</a>
-<a href="https://s-react-ecommerce.netlify.app">
+    <a href="https://github.com/Sibusiso75/react-demo.git">E-commerce app repository</a>
+    <a href="https://s-react-ecommerce.netlify.app">
   React-ecommerce-site
-</a>
+</a> 
 <p>I have implemented the following features: </p>
 <ul>
   
@@ -106,7 +117,7 @@ float:"right", borderRadius:"20px"}}
   Increase and decrease quantities.
   </li>
   </ul>
-
+  
 
 
   </main>  

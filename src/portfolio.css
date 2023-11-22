@@ -88,6 +88,9 @@
      
   
   }
+  .gitHubProfile:hover{
+          cursor: pointer;
+    }
   .projects, a {
     display:flex;
     padding:5px;
@@ -193,7 +196,9 @@
     flex-direction: column;
 
   }
-
+  .gitHubProfile:hover{
+    cursor: pointer;
+}
 
 }
 
@@ -243,10 +248,18 @@
     }
     .sibusiso {
       color:white;
-      
+      justify-content: center;
+    }
+    .gitHubProfile:hover{
+          cursor: pointer;
+    }
+    a:link{
+      justify-content:center;
     }
     .sibusiso:visited{
       color:white;
+      float: right;
+      justify-content: center;
     }
     a:visited{
       color:black;
