@@ -12,11 +12,8 @@ function App() {
     <span>
     
       <h1>
-      <img src="../dist/SibusisoMatebese'sPicture.png" alt="" 
-    style={{width:"90px", height:"90px", borderRadius:"50%"
-    }}/>
-    <p>    Sibusiso Matebese
-</p>
+      
+
       </h1>
     </span>
    
