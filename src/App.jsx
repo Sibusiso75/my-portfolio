@@ -38,7 +38,7 @@ function App() {
 
   
 <ul>
-<li>Knowledge of HTML, CSS, JavaScript, React JS and Node JS</li>
+<li>Knowledge of HTML5, CSS3, JavaScript, React JS and Node JS</li>
 <li>Knowledge of responsive web design </li>
 <li>Knowledge of integrating APIs into web appplications </li>
 <li>Knowledge of version control system such as git</li>
@@ -51,7 +51,7 @@ function App() {
 <h3>Personal Projects</h3>
 	<p><b>1. Meal and cocktail recipe apps</b></p> 
  <a href="https://github.com/Sibusiso75/react-demo.git">Cocktail app repository</a>
- <a href="https://mealcocktailrecipes.onrender.com">Meal recipe App</a>
+ <a href="https://mealrecipes.onrender.com">Meal recipe App</a>
  <a href="https://cocktailrecipes.onrender.com">Cocktail recipe App</a>
 
 <ul>
