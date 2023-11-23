@@ -2,18 +2,14 @@ import React from 'react'
 import "./portfolio.css"
 import {FaPhone} from "react-icons/fa"
 import {MdEmail} from "react-icons/md"
-
-
  
 function App() {
   return (
     <>
    <header className='header'>
     <span>
-    
       <h1>
-      
-
+         Sibusiso Matebese
       </h1>
     </span>
    
@@ -42,8 +38,7 @@ function App() {
 
   
 <ul>
-
-<li>Knowledge of HTML, CSS, JavaScript, React JS and Node</li>
+<li>Knowledge of HTML, CSS, JavaScript, React JS and Node JS</li>
 <li>Knowledge of responsive web design </li>
 <li>Knowledge of integrating APIs into web appplications </li>
 <li>Knowledge of version control system such as git</li>
