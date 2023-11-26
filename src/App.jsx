@@ -2,6 +2,7 @@ import React from 'react'
 import "./portfolio.css"
 import {FaPhone} from "react-icons/fa"
 import {MdEmail} from "react-icons/md"
+
  
 function App() {
   return (
@@ -22,14 +23,24 @@ function App() {
     </span>
    </header>
    <br />
- 
+  <a
+  style={{textDecoration:"none",background:"rgba(0, 0, 40, 0.702)",
+  color:"white", padding:"10px", float:"right",
+  marginRight:"5px", borderRadius:"12px"
+
+}}
+    download="../public/sibusisomatebese'sResume.pdf"
+  href="../public/sibusisomatebese'sResume.pdf"
+    target="_blank" rel="noopener noreferrer">
+      Download CV
+    </a>
    
    <main className='aboutMe'>
     <h3>About me</h3>
 <p>
   I'm a front-end web developer based in Kariega, Eastern Cape.
   I love Technology, solving problems and learning new things. 
-  I have built front-end web applications from meal recipe to ecommerce site.
+  I have developed front-end web applications from meal recipe to ecommerce site.
   </p>
 
 
@@ -43,14 +54,14 @@ function App() {
 <li>Knowledge of integrating APIs into web appplications </li>
 <li>Knowledge of version control system such as git</li>
 <li>Knowledge of ContextAPI and useReducer for state
-  management in React application
+  management
 </li>
 <li>Excellent problem-solving skills and ability to adapt to new technologies quickly</li>
 </ul>
 
 <h3>Personal Projects</h3>
 	<p><b>1. Meal and cocktail recipe apps</b></p> 
- <a href="https://github.com/Sibusiso75/react-demo.git">Cocktail app repository</a>
+ <a href="https://github.com/Sibusiso75/react-demo.git">Meal app repository</a>
  <a href="https://mealrecipes.onrender.com">Meal recipe App</a>
  <a href="https://cocktailrecipes.onrender.com">Cocktail recipe App</a>
 
@@ -65,7 +76,7 @@ function App() {
     </p>
   
    <span><a href="https://github.com/Sibusiso75/my-task-list.git">Todo-list repository</a></span>
-   <span><a href="https://task-manager-j9wm.onrender.com">Todo list</a></span>
+   <span><a href="https://react-manage-tasks.netlify.app">Todo list</a></span>
 
   
 <ul>
@@ -90,17 +101,15 @@ function App() {
   
   <li>
 
-  Home page to display all the products
+  Home page to display all the products, allowing users to add items to the cart.
 
   </li>
-  <li>
-  Add-to-cart.
-  </li>
+  
   <li>
   Notification when an item is added to the cart.
   </li>
   <li>
-  Single page for a specific item.
+  Single page for a specific item, allowing users to check the full details of an item.
   </li>
   <li>
   Cart page to display all items that are added to the cart and total price.
