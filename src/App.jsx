@@ -32,7 +32,7 @@ function App() {
     download="../public/sibusisomatebese'sResume.pdf"
   href="../public/sibusisomatebese'sResume.pdf"
     target="_blank" rel="noopener noreferrer">
-      Download CV
+      Download resume
     </a>
    
    <main className='aboutMe'>
