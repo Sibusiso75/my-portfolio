@@ -1,307 +1,618 @@
-
-@media screen and (max-width:767px){
+@media screen and (max-width:767px) {
   body {
-    margin:0px;
-    padding:0px;
-    background:rgba(0, 0, 40, 0.702);
-    color:rgba(255, 255, 255, 0.711);
+    margin: 0px;
+    padding: 0px;
+    background:  rgba(22, 22, 25, 0.874);
+    color: rgba(255, 255, 255, 0.711);
+    
   }
   
-  h3{
+  form, input, textArea, button{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding:10px;
+    border-radius:5px;
+    
+    gap:1.5rem;
+    padding:10px;
+  }
+  
+  button {
+    background:orangered;
+    width: 220px;
 
-      color:white;
-      padding:5px;
-      border-bottom: 3px solid black;
-      font-size: normal;
-      width:fit-content;
-      
-  
+    color:white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+
   }
   
-  .todo-list-app-screenshot{
-    width:150px;
-    height:150px;
+  
+  h3 {
+
+    color: white;
+    padding: 5px;
+
+    border-bottom: 3px groove white;
+    width: fit-content;
+
+
+  }
+
+  .todo-list-app-screenshot {
+    width: 150px;
+    height: 150px;
     border-radius: 20px;
   }
-  h4{
+
+  h4 {
     border: 2px dashed orange;
     width: fit-content;
     border-left: none;
     border-top: none;
   }
-  a:link{
-    display:row;
+
+  a:link {
+    display: row;
     justify-content: space-evenly;
     line-height: 10px;
     border-top: none;
-    border-left:5px groove rgba(0, 0, 40, 0.489);
-    width:fit-content;
-   color:black;
+    border-left: 5px groove white;
+    width: fit-content;
+    color: rgba(0, 0, 40, 0.702);
+    text-decoration:none;
   }
-  
-  a:hover{
+
+  a:hover {
     cursor: pointer;
     font-weight: bold;
     text-decoration: underline;
-    
-  }
-  .sibusiso {
-   color:white;
-    justify-content: center;
-    
-  }
-  .sibusiso:visited{
-    color:white;
-    justify-content: center;
-      }
-  a:visited{
-    color:black;
-    border-left:5px solid rgba(0, 0, 40, 0.702);
 
   }
-  .todo-list-app-screenshot{
-    width:150px;
-    height:150px;
-    border-radius: 20px;
-    float:center;
+
+  .sibusiso {
+    color: white;
+    justify-content: center;
   }
-  .header{
-    display:flex;
+
+  .gitHubProfile:link{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+  }
+
+.gitHubProfile:visited{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+  .gitHubProfile:hover {
+    cursor: pointer;
+  }
+
+  a:link {
+    justify-content: center;
+  }
+
+  .sibusiso:visited {
+    color: white;
+    float: right;
+    justify-content: center;
+  }
+
+  a:visited {
+    color: black;
+    border-left: 5px solid rgba(0, 0, 40, 0.702);
+
+  }
+
+  .todo-list-app-screenshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    float: center;
+  }
+  form {
+    padding-left:1%;
+  }
+  .firstAndLast{
+    display: flex;
+    gap:1rem;
+
+  }
+  .emailAndPhoneNumber{
+    display: flex;
+    gap:2rem;
+  }
+  
+  .message{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+
+  }
+  .messageAndButton{
+    display: flex;
+    gap:2rem;
+  }
+  .submitButton{
+    background:orange; color:white; padding:10px;width:49%; border-radius:5px;
+  }
+  .header,
+  .gitHubProfile:link,
+  .footer {
+    display: flex;
     flex-direction: column;
     text-align: center;
     line-height: 5px;
-    background:rgba(0, 0, 40, 0.702);
-    color:whitesmoke;
-  
-    
-  
+    background: rgba(22, 22, 25, 0.927);
+    color: whitesmoke;
   }
-  nav {
-    background-color:navy;
-    color:white;
-    height:100vh;
-    width:30%;
-
-  }
-  .aboutMe {
-    padding:5px;
-     
-  
-  }
-  .gitHubProfile:hover{
-          cursor: pointer;
-    }
-  .projects, a {
-    display:flex;
-    padding:5px;
-    line-height: 2px;
+  .imageTitleAndContainer{
+    display: flex;
     flex-direction: column;
 
   }
+  
+  .links {
+    display:flex;
+    gap: 1rem;
+    margin-left:5%;
+  }
+ 
+  .imageContainer {
+    display: flex;
+    gap:1rem;
+    margin-left:5%;
+    margin-right:5%;
+    flex-direction: column;
+
+    
+    
+  }
+   .icons{
+    display: flex;
+    font-size: 30px;
+    margin:10px;
+    gap:1rem;
+  color:rgba(0, 0, 40, 0.702);
+   }
+  
+  .image {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height:300px;
 
 
+  }
 
+  .image:hover {
+    cursor: pointer;
+  }
+
+  .footer {
+    background: rgba(0, 0, 40, 0.485);
+
+  }
+
+  nav {
+    background-color: navy;
+    color: white;
+    height: 100vh;
+    width: 30%;
+
+  }
+
+  .aboutMe {
+    padding: 5px;
+
+
+  }
+
+  .projects,
+  a {
+    display: flex;
+    padding: 5px;
+    line-height: 2px;
+
+  }
 }
 
-  
-@media screen  and (min-width:767px) and (max-width:1024px){
-  body {
-    margin:0px;
-    padding:0px;
-    background:rgba(0, 0, 40, 0.702);
-    color:rgba(255, 255, 255, 0.711);
-  }
-  h3{
 
-      color:white;
-      padding:5px;
-      border-bottom: 3px solid black;
-      width:fit-content;
-      
-  
+@media screen and (min-width:767px) and (max-width:1024px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    background:  rgba(22, 22, 25, 0.874);
+    color: rgba(255, 255, 255, 0.711);
+    
   }
-  
-  .todo-list-app-screenshot{
-    width:150px;
-    height:150px;
+
+  h3 {
+
+    color: white;
+    padding: 5px;
+    border-bottom: 3px groove white;
+    
+    width: fit-content;
+
+
+  }
+
+  .todo-list-app-screenshot {
+    width: 150px;
+    height: 150px;
     border-radius: 20px;
   }
-  h4{
+
+  h4 {
     border: 2px dashed orange;
     width: fit-content;
     border-left: none;
     border-top: none;
   }
-  a:link{
-    display:row;
+
+  a:link {
+    display: row;
     justify-content: space-evenly;
     line-height: 10px;
     border-top: none;
-    border-left:5px groove rgba(0, 0, 40, 0.489);
-    width:fit-content;
-   color:black;
+    border-left: 5px groove rgba(0, 0, 40, 0.489);
+    width: fit-content;
+    color: black;
   }
-  
-  a:hover{
+
+  a:hover {
     cursor: pointer;
     font-weight: bold;
     text-decoration: underline;
-    
-  }
-  .sibusiso {
-    color:white;
-    
-  }
-  .sibusiso:visited{
-    color:white;
-      }
-  a:visited{
-    color:black;
-    border-left:5px solid rgba(0, 0, 40, 0.702);
 
   }
-  .todo-list-app-screenshot{
-    width:150px;
-    height:150px;
-    border-radius: 20px;
-    float:center;
+
+  .sibusiso {
+    color: white;
+    justify-content: center;
   }
-  .header{
-    display:flex;
+
+  .gitHubProfile:hover {
+    cursor: pointer;
+  }
+
+  a:link {
+    justify-content: center;
+  }
+
+  .sibusiso:visited {
+    color: white;
+    float: right;
+    justify-content: center;
+  }
+
+  a:visited {
+    color: black;
+    border-left: 5px solid rgba(0, 0, 40, 0.702);
+
+  }
+
+  .todo-list-app-screenshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    float: center;
+  }
+  form {
+    padding-left:1%;
+  }
+  .firstAndLast{
+    display: flex;
+    gap:1rem;
+
+  }
+  .emailAndPhoneNumber{
+    display: flex;
+    gap:2rem;
+  }
+  
+  .message{
+  border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+
+  }
+
+  .header,
+  .gitHubProfile:link,
+  .footer {
+    display: flex;
     flex-direction: column;
     text-align: center;
     line-height: 5px;
-    background:rgba(0, 0, 40, 0.702);
-    color:whitesmoke;
-  
-    
-  
+    background: rgba(22, 22, 25, 0.927);
+    color: whitesmoke;
   }
-  nav {
-    background-color:navy;
-    color:white;
-    height:100vh;
-    width:30%;
+  .imageTitleAndContainer{
+    display: flex;
+    flex-direction: column;
 
   }
-  .aboutMe {
-    padding:5px;
-     
   
-  }
-  .projects, a {
+  .links {
     display:flex;
-    padding:5px;
+    gap: 1rem;
+    margin-left:5%;
+  }
+ 
+  .imageContainer {
+    display: flex;
+    width:70%;
+        gap: 1rem;
+  margin-left: 2%;
+    
+    
+  }
+   .icons{
+    display: flex;
+    font-size: 30px;
+    margin:10px;
+    gap:1rem;
+  color:rgba(0, 0, 40, 0.702);
+   }
+  
+  .image {
+    width: 300px;
+    height:150px;
+
+  }
+
+  .image:hover {
+    cursor: pointer;
+  }
+
+  .footer {
+    background: rgba(0, 0, 40, 0.485);
+
+  }
+
+  nav {
+    background-color: navy;
+    color: white;
+    height: 100vh;
+    width: 30%;
+
+  }
+
+  .aboutMe {
+    padding: 5px;
+
+
+  }
+
+  .projects,
+  a {
+    display: flex;
+    padding: 5px;
     line-height: 2px;
     flex-direction: column;
 
   }
-  .gitHubProfile:hover{
-    cursor: pointer;
-}
-
-}
-
-  @media screen and (min-width:1024px){
-    body {
-      margin:0px;
-      padding:0px;
-      background:rgba(0, 0, 40, 0.702);
-      color:rgba(255, 255, 255, 0.711);
-    }
-    h3{
-
-        color:white;
-        padding:5px;
-        border-bottom: 3px solid black;
-        width:fit-content;
-        
-    
-    }
-    
-    .todo-list-app-screenshot{
-      width:150px;
-      height:150px;
-      border-radius: 20px;
-    }
-    h4{
-      border: 2px dashed orange;
-      width: fit-content;
-      border-left: none;
-      border-top: none;
-    }
-    a:link{
-      display:row;
-      justify-content: space-evenly;
-      line-height: 10px;
-      border-top: none;
-      border-left:5px groove rgba(0, 0, 40, 0.489);
-      width:fit-content;
-     color:black;
-    }
-    
-    a:hover{
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: underline;
-      
-    }
-    .sibusiso {
-      color:white;
-      justify-content: center;
-    }
-    .gitHubProfile:hover{
-          cursor: pointer;
-    }
-    a:link{
-      justify-content:center;
-    }
-    .sibusiso:visited{
-      color:white;
-      float: right;
-      justify-content: center;
-    }
-    a:visited{
-      color:black;
-      border-left:5px solid rgba(0, 0, 40, 0.702);
-
-    }
-    .todo-list-app-screenshot{
-      width:150px;
-      height:150px;
-      border-radius: 20px;
-      float:center;
-    }
-    .header{
-      display:flex;
-      flex-direction: column;
-      text-align: center;
-      line-height: 5px;
-      background:rgba(0, 0, 40, 0.702);
-      color:whitesmoke;
-    
-      
-    
-    }
-    nav {
-      background-color:navy;
-      color:white;
-      height:100vh;
-      width:30%;
-
-    }
-    .aboutMe {
-      padding:5px;
-       
-    
-    }
-    .projects, a {
-      display:flex;
-      padding:5px;
-      line-height: 2px;
-      flex-direction: column;
-
-    }
   
+  form, input, textArea, button{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    gap:1.5rem;
+    padding:10px;
   }
   
+  button {
+    background:orangered;
+    width: 220px;
+    align-items: center;
+
+    color:white;
+    font-weight: bold;
+    justify-content: center;
+  }
+  
+  
+}
+
+@media screen and (min-width:1024px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    background:  rgba(22, 22, 25, 0.874);
+    color: rgba(255, 255, 255, 0.711);
+    
+  }
+  
+
+  h3 {
+
+    color: white;
+    padding: 5px;
+    border-bottom: 3px groove white;
+    width: fit-content;
+
+
+  }
+
+  .todo-list-app-screenshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+  }
+
+  h4 {
+    border: 2px dashed orange;
+    width: fit-content;
+    border-left: none;
+    border-top: none;
+  }
+
+  a:link {
+    display: row;
+    justify-content: space-evenly;
+    line-height: 10px;
+    border-top: none;
+    border-left: 5px groove rgba(0, 0, 40, 0.489);
+    width: fit-content;
+    color: black;
+  }
+
+  a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+
+  }
+
+  .sibusiso {
+    color: white;
+    justify-content: center;
+  }
+
+  .gitHubProfile:hover {
+    cursor: pointer;
+  }
+
+  a:link {
+    justify-content: center;
+  }
+
+  .sibusiso:visited {
+    color: white;
+    float: right;
+    justify-content: center;
+  }
+
+  a:visited {
+    color: black;
+    border-left: 5px solid rgba(0, 0, 40, 0.702);
+
+  }
+
+  .todo-list-app-screenshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    float: center;
+  }
+ 
+ 
+  
+  
+
+ 
+  .header,
+  .gitHubProfile:link,
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 5px;
+    background: rgba(22, 22, 25, 0.927);
+    color: whitesmoke;
+  }
+  .imageTitleAndContainer{
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .links {
+    display:flex;
+    gap: 1rem;
+    margin-left:2%;
+
+   
+  }
+ 
+  .imageContainer {
+    display: flex;
+    width:61%;
+
+    gap: 1rem;
+    margin-left:1%;
+    
+    
+  }
+   .icons{
+    display: flex;
+    font-size: 30px;
+    margin:10px;
+    gap:1rem;
+  color:rgba(0, 0, 40, 0.702);
+   }
+  
+  .image {
+    width: 300px;
+    height:100px;
+
+  }
+
+  .image:hover {
+    cursor: pointer;
+  }
+
+  .footer {
+    background: rgba(0, 0, 40, 0.485);
+
+  }
+  form, input, textArea, button{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding:10px;
+    border:none;
+    outline:none;
+    
+    gap:1.5rem;
+    padding:10px;
+  }
+  
+  
+  
+
+  nav {
+    background-color: navy;
+    color: white;
+    height: 100vh;
+    width: 30%;
+
+  }
+
+  .aboutMe {
+    padding: 5px;
+
+
+  }
+
+  .projects,
+  a {
+    display: flex;
+    padding: 5px;
+    line-height: 2px;
+    flex-direction: column;
+
+  }
+
+}
