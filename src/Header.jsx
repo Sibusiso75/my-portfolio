@@ -7,12 +7,13 @@ function Header() {
   return (
     <div>
         <span>
-          <h1>
-            <FaUserCheck /> Sibusiso Matebese
-          </h1>
+<br />
+        <img src="../public/Sibusiso'sPic.png" alt=""
+            style={{width:"100px", height:"100px", borderRadius:"100px"}} />
+
+<h1>Sibusiso Matebese</h1>
           <p><MdEmail /> SibusisoMatebese75@gmail.com</p>
-          <p><FaPhone /> +27 63... Avaible upon request</p>
-          <p><FaGithub/>GitHub | <FaLinkedin /> LinkedIn  </p>
+          <p><FaPhone /> +27 631008729</p>
         </span>
         
     </div>

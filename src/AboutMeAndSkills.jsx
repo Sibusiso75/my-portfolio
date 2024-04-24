@@ -1,23 +1,32 @@
 import React from 'react'
+import {FaDownload, FaHtml5, FaCss3,  FaReact, FaNodeJs, FaDatabase} from "react-icons/fa"
+import {MdJavascript} from "react-icons/md"
+import {BiGitBranch} from "react-icons/bi"
+
 
 function AboutMeAndSkills() {
   return (
     <div>
+      <div className='aboutMeAndDownload'>
+
          <h3>About me</h3>
+         <a href="./sibusisomatebese'sResume.pdf" className='download' download >
+      Download CV
+    </a>
+      </div>
         <p>
-          I am a highly motivated web developer, seeking an opportunity to use my skills, knowledge, and passion for creating user-friendly web applications. I am ready to take on various tasks and work in a team-orianted environment
+        I'm a web developer based in Kariega, Eastern Cape. I love Technology, learning new things and solving real world problems by developing software.
+        I'm seeking for an opportunity to use my skills and work in a team-orianted environment.
         </p>
         <h3>Skills</h3>
-        <ul>
-          <li>Proficient in front-end and back-end technologies such as HTML5, CSS3, JavaScript, React, Express and Node JS</li>
-          <li>Knowledge of SQL and noSQL Database such as MongoDB</li>
-          <li>Knowledge of creating secure web applications that are responsive in various devices </li>
-          <li>Solid understanding of building and integrating APIs into web appplications </li>
-          <li>Familiar with version control system such as git</li>
-          <li>Knowledge of lazy loading and Suspense for performance optimization </li>
-          <li>Excellent problem-solving and debugging skills </li>
-        </ul>
-
+        <h4>Front-end technologies</h4>
+        HTML <FaHtml5/> CSS <FaCss3/>  JavaScript  <br /><br />React <FaReact/>
+        <h4>Back-end Technologies</h4>
+        Node <FaNodeJs/>  Express <MdJavascript/>
+        <h4>Database</h4>
+        MongoDB <FaDatabase/> SQL <FaDatabase/>
+        <h4>Version control system</h4>
+        Git <BiGitBranch/>
     </div>
   )
 }

@@ -1,16 +1,31 @@
 import React, {useState} from 'react'
+// import  axios from "axios"
+// import {toast} from "react-toastify"
+//npm install axios react-toastify
 
 function ContactAndFooter() {
-    const [name, setName] = useState("")
+    const [firstName, setfirstName] = useState("")
     const [lastName, setLastName] = useState("")
     const [email, setEmail] = useState("")
-    const [phoneNumber, setPhoneNumber] = useState("")
+    const [phoneNumber, setPhoneNumber] = useState(0)
     const [message, setMessage] = useState("")
 
-    function handleSubmit(e) {
+    function handleSubmit(e){
         e.preventDefault()
-    
-      }
+        axios.post("http://localhost:5000", 
+           {firstName, lastName, email, phoneNumber, message}).then((response)=>{           
+               if(response.data.status){
+                   toast.success(response.data.message)
+                   navigate("/")
+               } else{
+                toast.error(response.data.message)
+               }
+        }).catch(err =>{
+            console.log("Error")
+            toast.error("No internet access")
+
+        })
+    }
     return (
         <div>
             <h3>Contact me</h3>
@@ -19,13 +34,16 @@ function ContactAndFooter() {
                     <input type="text"
                         required
                         autoComplete='off'
-                        onChange={(e) => setName(e.target.value)}
+                        onChange={(e) => setfirstName(e.target.value)}
+
                         placeholder='First Name' />
+
                     <input type="text"
                         required
                         autoComplete='off'
                         onChange={(e) => setLastName(e.target.value)}
                         placeholder='Last Name' />
+
               
                     <input type="email"
                         autoComplete='off'
@@ -44,6 +62,7 @@ function ContactAndFooter() {
                         />
                     <button type="submit">Submit</button>
             </form>
+            <br /><br />
             <footer className="footer">
                 <p>Made with ♥ By Sibusiso Matebese</p>
                 <p>© Copyright 2024. All Right reserved</p>
