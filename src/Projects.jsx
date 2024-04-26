@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaImage } from 'react-icons/fa'
 
 function Projects() {
 
@@ -12,7 +11,6 @@ function Projects() {
           <div>
           </div>
           <div className="imageContainer">
-            <img src="../public/meal.png" className="image" alt="" />
             <p>  
               I have used a third party API to create a meal recipe website that prepares people to cook meals around the world by just following instructions and using specified ingredients.
             </p>
@@ -47,7 +45,7 @@ function Projects() {
           </p>
           <div className="links">
           <span><a href="https://github.com/Sibusiso75">Quiz App repository</a></span>
-          <span><a href="https://reactjs-trivia.netlify.app">Quiz app link</a></span>
+          <span><a href="https://s-react-quiz.netlify.app">Quiz app link</a></span>
             </div>
           <p>
             <b>4. React-ecommerce-site</b>
@@ -61,9 +59,9 @@ function Projects() {
           </p>
           <div className="links">
             
-          <a href="https://github.com/Sibusiso75/react-demo.git">E-commerce app repository</a>
-          <a href="https://s-react-ecommerce.netlify.app">
-            React-ecommerce-site
+          <a href="https://github.com/Sibusiso75/react-quiz.netlify">E-commerce app repository</a>
+          <a href="https://s-react-e-commerce.netlify">
+                        React-ecommerce-site
           </a>
           </div>
 

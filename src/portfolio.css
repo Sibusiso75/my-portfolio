@@ -10,6 +10,7 @@
   border-radius: 5px;
   font-weight: bold;
   width: fit-content;
+  justify-content: center;
   padding:10px;
   height:fit-content;
 }
@@ -163,16 +164,18 @@
   .submitButton{
     background:orange; color:white; padding:10px;width:49%; border-radius:5px;
   }
-  .header,
-  .gitHubProfile:link,
+  header,
+  
   .footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     line-height: 5px;
     background: rgba(22, 22, 25, 0.927);
     color: whitesmoke;
   }
+
   .imageTitleAndContainer{
     display: flex;
     flex-direction: column;
@@ -350,12 +353,13 @@
 
   }
 
-  .header,
-  .gitHubProfile:link,
+  header,
+  
   .footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     line-height: 5px;
     background: rgba(22, 22, 25, 0.927);
     color: whitesmoke;
@@ -536,12 +540,13 @@
   
 
  
-  .header,
-  .gitHubProfile:link,
+  header,
+  
   .footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     line-height: 5px;
     background: rgba(22, 22, 25, 0.927);
     color: whitesmoke;

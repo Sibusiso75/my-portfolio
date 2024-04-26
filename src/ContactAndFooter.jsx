@@ -10,27 +10,26 @@ function ContactAndFooter() {
     const [phoneNumber, setPhoneNumber] = useState(0)
     const [message, setMessage] = useState("")
 
-    function handleSubmit(e){
-        e.preventDefault()
-        axios.post("http://localhost:5000", 
-           {firstName, lastName, email, phoneNumber, message}).then((response)=>{           
-               if(response.data.status){
-                   toast.success(response.data.message)
-                   navigate("/")
-               } else{
-                toast.error(response.data.message)
-               }
-        }).catch(err =>{
-            console.log("Error")
-            toast.error("No internet access")
+    // function handleSubmit(e){
+    //     e.preventDefault()
+    //     axios.post("https://emailAPI.onrender.com", 
+    //        {firstName, lastName, email, phoneNumber, message}).then((response)=>{           
+    //            if(response.data.status){
+    //                toast.success(response.data.message)
+    //            } else{
+    //             toast.error(response.data.message)
+    //            }
+    //     }).catch(err =>{
+    //         console.log("Error")
+    //         toast.error("No internet access")
 
-        })
-    }
+    //     })
+    // }
     return (
         <div>
             <h3>Contact me</h3>
             <p><b>Feel free to reach out to me through the form, I'll get back to you.</b></p>
-            <form onSubmit={handleSubmit}>
+            {/* <form onSubmit={handleSubmit}> */}
                     <input type="text"
                         required
                         autoComplete='off'
@@ -61,7 +60,7 @@ function ContactAndFooter() {
                         placeholder='Write a message...'
                         />
                     <button type="submit">Submit</button>
-            </form>
+            {/* </form> */}
             <br /><br />
             <footer className="footer">
                 <p>Made with ♥ By Sibusiso Matebese</p>
