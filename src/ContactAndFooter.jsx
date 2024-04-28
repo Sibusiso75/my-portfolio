@@ -8,6 +8,7 @@ function ContactAndFooter() {
     const [phoneNumber, setPhoneNumber] = useState(0)
     const [message, setMessage] = useState("")
 
+  axios.defaults.withCredentials=true;
     function handleSubmit(e){
         e.preventDefault()
         axios.post("https://emailapi-zcah.onrender.com", 
