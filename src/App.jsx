@@ -9,7 +9,6 @@ import ContactAndFooter from './ContactAndFooter'
 function App() {
  
 
-//npm install axios react-toastify 
   
   return (
     <>

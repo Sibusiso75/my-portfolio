@@ -7,7 +7,7 @@ function Projects() {
     <div>
          <h3>Personal Projects</h3>
         <div>
-          <p><b>1. Meal and cocktail recipe apps</b></p>
+          <p><b>1. Meal recipe website</b></p>
           <div>
           </div>
           <div className="imageContainer">
@@ -18,53 +18,32 @@ function Projects() {
           <p>
           </p>
           <div className="links">
-            <a href="https://github.com/Sibusiso75/meal-recipe-app.git">Meal repository</a>
             <a href="https://s-mealrecipes.netlify.com">Meal link</a>
           </div>
-
-
-
           <p>
-            <b>Task manager App</b>
-          </p>
-          
-
-          <p>
-          </p>
-          <div className="links">
-         
-          <span><a href=" https://github.com/Sibusiso75/my-task-list.git">Task manager repository</a></span>
-          <span><a href="https://react-manage-tasks.netlify.app">Task manager link</a></span>
-          </div>
-
-
-
-          <p>
-            <b>3. Quiz App</b>
-          
-          </p>
-          <div className="links">
-          <span><a href="https://github.com/Sibusiso75">Quiz App repository</a></span>
-          <span><a href="https://s-react-quiz.netlify.app">Quiz app link</a></span>
-            </div>
-          <p>
-            <b>4. React-ecommerce-site</b>
+            <b>2. React-ecommerce-site</b>
           </p>
           <div className="imageContainer">
-            <p>I have developed an ecommerce website using React JS, allowing users to view, search and filter products by category. Created a cart page, allowing users to increase, decrease quantity and remove items to their shopping cart(app still in progress).
+            <p>I have developed an ecommerce website using React JS, allowing users to view, search and add items to their cart. Created a cart page, allowing users to increase, decrease quantity and remove items to their shopping cart(app still in progress).
             </p>
           </div>
           <p>
 
           </p>
           <div className="links">
-            
-          <a href="https://github.com/Sibusiso75/react-quiz.netlify">E-commerce app repository</a>
-          <a href="https://s-react-e-commerce.netlify">
+                      <a href="https://s-react-e-commerce.netlify">
                         React-ecommerce-site
           </a>
           </div>
-
+          <p>
+            <b>3. Task manager App</b>
+          </p>
+          <p>
+          </p>
+          <div className="links">
+          <span><a href="https://react-manage-tasks.netlify.app">Task manager link</a></span>
+          </div>
+         
         </div>
 
     </div>

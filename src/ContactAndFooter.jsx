@@ -1,7 +1,5 @@
 import React, {useState} from 'react'
-// import  axios from "axios"
-// import {toast} from "react-toastify"
-//npm install axios react-toastify
+import  axios from "axios"
 
 function ContactAndFooter() {
     const [firstName, setfirstName] = useState("")
@@ -10,26 +8,26 @@ function ContactAndFooter() {
     const [phoneNumber, setPhoneNumber] = useState(0)
     const [message, setMessage] = useState("")
 
-    // function handleSubmit(e){
-    //     e.preventDefault()
-    //     axios.post("https://emailAPI.onrender.com", 
-    //        {firstName, lastName, email, phoneNumber, message}).then((response)=>{           
-    //            if(response.data.status){
-    //                toast.success(response.data.message)
-    //            } else{
-    //             toast.error(response.data.message)
-    //            }
-    //     }).catch(err =>{
-    //         console.log("Error")
-    //         toast.error("No internet access")
+    function handleSubmit(e){
+        e.preventDefault()
+        axios.post("https://emailAPI.onrender.com", 
+           {firstName, lastName, email, phoneNumber, message}).then((response)=>{           
+               if(response.data.status){
+                   alert(response.data.message)
+               } else{
+                alert("Email not sent")
+               }
+        }).catch(err =>{
+            console.log("Error")
+            
 
-    //     })
-    // }
+        })
+    }
     return (
         <div>
             <h3>Contact me</h3>
             <p><b>Feel free to reach out to me through the form, I'll get back to you.</b></p>
-            {/* <form onSubmit={handleSubmit}> */}
+            <form onSubmit={handleSubmit}>
                     <input type="text"
                         required
                         autoComplete='off'
@@ -60,11 +58,11 @@ function ContactAndFooter() {
                         placeholder='Write a message...'
                         />
                     <button type="submit">Submit</button>
-            {/* </form> */}
+            </form>
             <br /><br />
             <footer className="footer">
                 <p>Made with ♥ By Sibusiso Matebese</p>
-                <p>© Copyright 2024. All Right reserved</p>
+                <p>© Copyright 2024. All Rights reserved</p>
             </footer>
         </div>
     )

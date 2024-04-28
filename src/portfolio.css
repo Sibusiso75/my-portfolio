@@ -2,6 +2,10 @@
   display: flex;
   justify-content: space-between;
 }
+body{
+  margin: 0px;
+  padding:0px;
+}
 .download:link{
   border-left: none;
   text-decoration: none;
@@ -14,9 +18,10 @@
   padding:10px;
   height:fit-content;
 }
-@media screen and (max-width:767px) {
+@media (max-width:767px) {
   body {
-    margin: 0px;
+    
+    margin: 0px; 
     padding: 0px;
     background:  rgba(22, 22, 25, 0.874);
     color: rgba(255, 255, 255, 0.711);
@@ -28,9 +33,8 @@
     flex-direction: column;
     width: 200px;
     padding:10px;
-    border-radius:5px;
     
-    gap:1.5rem;
+    gap:1.3rem;
     padding:10px;
   }
   
@@ -137,6 +141,8 @@
   }
   form {
     padding-left:1%;
+  
+
   }
   .firstAndLast{
     display: flex;
@@ -167,6 +173,8 @@
   header,
   
   .footer {
+    padding:0px;
+    margin:0px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -247,7 +255,7 @@
 }
 
 
-@media screen and (min-width:767px) and (max-width:1023px) {
+@media (min-width:767px) and (max-width:1023px) {
   body {
     margin: 0px;
     padding: 0px;
@@ -332,6 +340,7 @@
   }
   form {
     padding-left:1%;
+  
   }
   .firstAndLast{
     display: flex;
@@ -356,6 +365,8 @@
   header,
   
   .footer {
+    padding:0px;
+    margin:0px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -435,10 +446,9 @@
     flex-direction: column;
     width: 200px;
     padding:10px;
-    border-radius:5px;
     border:none;
     outline:none;
-    gap:1.5rem;
+    gap:1.3rem;
     padding:10px;
   }
   
@@ -455,7 +465,7 @@
   
 }
 
-@media screen and (min-width:1024px) {
+@media  (min-width:1024px) {
   body {
     margin: 0px;
     padding: 0px;
@@ -543,6 +553,8 @@
   header,
   
   .footer {
+    margin:0px;
+    padding:0px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -614,8 +626,9 @@
     padding:10px;
     border:none;
     outline:none;
+
     
-    gap:1.5rem;
+    gap:1.3rem;
     padding:10px;
   }
   

@@ -1,6 +1,6 @@
 import React from 'react'
-import {FaDownload, FaHtml5, FaCss3,  FaReact, FaNodeJs, FaDatabase} from "react-icons/fa"
-import {MdJavascript, MdEmail} from "react-icons/md"
+import { FaHtml5, FaCss3,  FaReact, FaNodeJs, FaDatabase} from "react-icons/fa"
+import {MdJavascript} from "react-icons/md"
 import {BiGitBranch} from "react-icons/bi"
 
 
@@ -9,9 +9,13 @@ function AboutMeAndSkills() {
     <div>
       <div className='aboutMeAndDownload'>
          <h3>About me</h3>
+         <h3 style={{background:"none",
+    borderBottom: "none"}}>
+
          <a href="./sibusisomatebese'sResume.pdf" className='download' download >
-      Download resume
+      Download cv
     </a>
+         </h3>
       </div>
         <p>
         I am a web developer based in Kariega, Eastern Cape. I love Technology, learning new things and solving real world problems by developing software.
