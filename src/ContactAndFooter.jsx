@@ -11,7 +11,7 @@ function ContactAndFooter() {
   axios.defaults.withCredentials=true;
     function handleSubmit(e){
         e.preventDefault()
-        axios.post("https://emailapi-zcah.onrender.com", 
+        axios.post("https://emailapi-zcah.onrender.com/contact", 
            {firstName, lastName, email, phoneNumber, message}).then((response)=>{           
                if(response.data.status){
                    alert(response.data.message)
