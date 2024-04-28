@@ -10,7 +10,7 @@ function ContactAndFooter() {
 
     function handleSubmit(e){
         e.preventDefault()
-        axios.post("https://emailAPI.onrender.com", 
+        axios.post("https://emailapi-zcah.onrender.com", 
            {firstName, lastName, email, phoneNumber, message}).then((response)=>{           
                if(response.data.status){
                    alert(response.data.message)
