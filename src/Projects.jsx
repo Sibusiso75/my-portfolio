@@ -18,31 +18,32 @@ function Projects() {
           <p>
           </p>
           <div className="links">
-            <a href="https://s-mealrecipes.netlify.com">Meal link</a>
+            <a href="https://s-mealrecipes.netlify.app">Meal link</a>
           </div>
           <p>
-            <b>2. React-ecommerce-site</b>
+            <b>2. Ecommerce site</b>
           </p>
           <div className="imageContainer">
-            <p>I have developed an ecommerce website using React JS, allowing users to view, search and add items to their cart. Created a cart page, allowing users to increase, decrease quantity and remove items to their shopping cart(app still in progress).
+            <p>I have developed an ecommerce website using React JS, allowing users to view, search and add items to their cart. Created a cart page, allowing users to increase, decrease quantity and remove items to their shopping cart.
             </p>
           </div>
           <p>
 
           </p>
           <div className="links">
-                      <a href="https://s-react-e-commerce.netlify">
-                        React-ecommerce-site
+                      <a href="https://s-react-e-commerce.netlify.app">
+                        Ecommerce website
           </a>
           </div>
+
           <p>
-            <b>3. Task manager App</b>
-          </p>
-          <p>
-          </p>
+            <b>3. Job seeking app</b>
+          </p>           
+          <p>I'm developing a job search application where job seekers can create their profiles, search and apply for jobs, share their experience about job hunting . (app still in progress)  </p>
           <div className="links">
-          <span><a href="https://react-manage-tasks.netlify.app">Task manager link</a></span>
+          <span><a href="https://github.com/Sibusiso75/job-search-app.git">Job search app</a></span>
           </div>
+          
          
         </div>
 

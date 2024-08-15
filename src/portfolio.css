@@ -18,6 +18,9 @@ body{
   padding:10px;
   height:fit-content;
 }
+a:visited{
+  color:white;
+}
 @media (max-width:767px) {
   body {
     
@@ -80,7 +83,7 @@ body{
     justify-content: space-evenly;
     line-height: 10px;
     border-top: none;
-    border-left: 5px groove white;
+    border-left: 5px groove rgba(0, 0, 40, 0.702);
     width: fit-content;
     color: rgba(245, 245, 245, 0.564);
   }
@@ -128,7 +131,7 @@ body{
   }
 
   a:visited {
-    color: black;
+    color:white;
     border-left: 5px solid rgba(0, 0, 40, 0.702);
 
   }
@@ -293,7 +296,7 @@ body{
     justify-content: space-evenly;
     line-height: 10px;
     border-top: none;
-    border-left: 5px groove white;
+    border-left: 5px groove rgba(0, 0, 40, 0.702);
     width: fit-content;
     
     color: rgba(245, 245, 245, 0.564);
@@ -327,7 +330,7 @@ body{
   }
 
   a:visited {
-    color: black;
+    color: white;
     border-left: 5px solid rgba(0, 0, 40, 0.702);
 
   }
@@ -473,7 +476,14 @@ body{
     color: rgba(255, 255, 255, 0.711);
     
   }
-  
+  h4{
+    display:flex;
+  }
+  .skills{
+    display:flex;
+    gap:1.2rem;
+
+  }
 
   h3, h4 {
 
@@ -503,7 +513,7 @@ body{
     justify-content: space-evenly;
     line-height: 10px;
     border-top: none;
-    border-left: 5px groove white;
+    border-left: 5px groove rgba(0, 0, 40, 0.702);
     width: fit-content;
     color: rgba(245, 245, 245, 0.564);
   }
@@ -533,7 +543,7 @@ body{
   }
 
   a:visited {
-    color: black;
+    color: white;
     border-left: 5px solid rgba(0, 0, 40, 0.702);
 
   }

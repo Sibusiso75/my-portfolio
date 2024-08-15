@@ -23,8 +23,11 @@ function AboutMeAndSkills() {
         
         </p>
         <h3>Skills</h3>
-        <h4>Front-end technologies</h4>
-        HTML <FaHtml5/> CSS <FaCss3/>  JavaScript  <br /><br />React <FaReact/>
+        <div>
+          
+          <h4>Front-end technologies</h4>
+          HTML <FaHtml5/> CSS <FaCss3/>  JavaScript  <br /><br />React <FaReact/>
+        </div>
         <h4>Back-end Technologies</h4>
         Node <FaNodeJs/>  Express <MdJavascript/>
         <h4>Database</h4>
