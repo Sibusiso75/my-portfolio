@@ -31,7 +31,7 @@ function Projects() {
 
           </p>
           <div className="links">
-                      <a href="https://s-react-e-commerce.netlify.app">
+                      <a href="https://react-eco-site.netlify.app">
                         Ecommerce website
           </a>
           </div>
@@ -41,7 +41,7 @@ function Projects() {
           </p>           
           <p>I'm developing a job search application where job seekers can create their profiles, search and apply for jobs, share their experience about job hunting . (app still in progress)  </p>
           <div className="links">
-          <span><a href="https://github.com/Sibusiso75/job-search-app.git">Job search app</a></span>
+          <span><a href="https://s-jobsearchapp.netlify.app">Job search app</a></span>
           </div>
           
          

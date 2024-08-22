@@ -27,13 +27,14 @@ function ContactAndFooter() {
     return (
         <div>
             <h3>Contact me</h3>
+
             <p><b>Feel free to reach out to me through the form, I'll get back to you.</b></p>
             <form onSubmit={handleSubmit}>
                     <input type="text"
                         required
                         autoComplete='off'
                         onChange={(e) => setfirstName(e.target.value)}
-
+                        
                         placeholder='First Name' />
 
                     <input type="text"
@@ -48,11 +49,11 @@ function ContactAndFooter() {
                         onChange={(e) => setEmail(e.target.value)}
                         required
                         placeholder='Email' />
-                    <input type="number"
+                  <input type="number"
                         autoComplete='off'
                         onChange={(e) => setPhoneNumber(e.target.value)}
                         required
-                        placeholder='Phone number...' />
+                        placeholder='Phone number...' /> 
                     <textarea
                         onChange={(e) => setMessage(e.target.value)}
                         required
