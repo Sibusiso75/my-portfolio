@@ -7,6 +7,8 @@ function Header() {
     <div>
         <header style={{background:"transparent"}}>
 <h1>Sibusiso Matebese</h1>
+
+
           <span ><MdEmail/> SibusisoMatebese75@gmail.com</span>
           <p><FaPhone /> +27 631008729</p>
           <span style={{display:"flex", fontWeight:"normal"}}><a href="https://github.com/Sibusiso75" 

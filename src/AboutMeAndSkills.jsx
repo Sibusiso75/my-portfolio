@@ -17,11 +17,10 @@ function AboutMeAndSkills() {
     </a>
          </h3>
       </div>
-        <p>
-        I am a web developer based in Kariega, Eastern Cape. I love Technology, learning new things and solving real world problems by developing software.
-        I am seeking for an opportunity to use my skills, knowledge and passion in web development.
-        
-        </p>
+      I am a web developer based in Kariega, Eastern Cape (South Africa). 
+      I love coding, solving problems and working on projects that enhance my skills. I am seeking for a frontend, backend or fullstack opportunity.
+
+       
         <h3>Skills</h3>
         <div>
           

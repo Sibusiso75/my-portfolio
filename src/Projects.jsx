@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {MdFastfood, MdNoMeals, MdSetMeal, MdShop, MdShoppingBag, MdShoppingBasket, MdWork} from "react-icons/md"
 function Projects() {
 
   
@@ -11,6 +11,8 @@ function Projects() {
           <div>
           </div>
           <div className="imageContainer">
+          <img src="../meal.png" alt="" className='image' />
+
             <p>  
               I have used a third party API to create a meal recipe website that prepares people to cook meals around the world by just following instructions and using specified ingredients.
             </p>
@@ -18,12 +20,13 @@ function Projects() {
           <p>
           </p>
           <div className="links">
-            <a href="https://s-mealrecipes.netlify.app">Meal link</a>
+            <a href="https://s-mealrecipe.onrender.com">Meal link</a>
           </div>
           <p>
             <b>2. Ecommerce site</b>
           </p>
           <div className="imageContainer">
+            <MdShoppingBasket className='icon'/>
             <p>I have developed an ecommerce website using React JS, allowing users to view, search and add items to their cart. Created a cart page, allowing users to increase, decrease quantity and remove items to their shopping cart.
             </p>
           </div>
@@ -39,7 +42,13 @@ function Projects() {
           <p>
             <b>3. Job seeking app</b>
           </p>           
+          <div className="imageContainer">
+            <MdWork className='icon'/>
+
+          
+
           <p>I'm developing a job search application where job seekers can create their profiles, search and apply for jobs, share their experience about job hunting . (app still in progress)  </p>
+          </div>
           <div className="links">
           <span><a href="https://jobsearchapp-aaoq.onrender.com">Job search app</a></span>
           </div>

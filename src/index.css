@@ -33,6 +33,13 @@
             color: rgba(255, 255, 255, 0.711);
             
           }
+          .me{
+            width: 25%;
+            height:25%;
+            color:rgb(0, 0, 16);
+            
+        
+          }
           
           form, input, textArea, button{
             display: flex;
@@ -212,6 +219,18 @@
             
             
           }
+          .meContainer {
+            display: flex;
+            /* gap:1rem; */
+            margin-left:5%;
+            margin-right:5%;
+            /* flex-direction: column; */
+            
+        
+            
+            
+          }
+          
            .icons{
             display: flex;
             font-size: 30px;
@@ -222,12 +241,17 @@
           
           .image {
             display: flex;
-            flex-wrap: wrap;
             width:90%;
-            height:90%;
+            /* height:50%; */
+            /* justify-content: center; */
         
           }
+          .icon {
+            width: 90%;
+            height:90%;
+            color:rgb(0, 0, 16);
         
+          }
           .image:hover {
             cursor: pointer;
           }
@@ -269,6 +293,19 @@
             color: rgba(255, 255, 255, 0.711);
             
           }
+          .me{
+            width: 25%;
+            height:25%;
+            color:rgb(0, 0, 16);
+        
+          }
+          .icon {
+            width: 70%;
+            height:70%;
+            color:rgb(0, 0, 16);
+        
+          }
+          
         
           h3, h4 {
         
@@ -401,6 +438,16 @@
             
             
           }
+          .me {
+            display: flex;
+            gap:1rem;
+            margin-left:5%;
+            margin-right:5%;
+            flex-direction: column;
+        
+            
+            
+          }
            .icons{
             display: flex;
             font-size: 30px;
@@ -410,8 +457,8 @@
            }
           
           .image {
-            width: 100px;
-            height:100px;
+            width: 30%;
+            height:30%;
         
           }
         
@@ -589,7 +636,17 @@
         
            
           }
-         
+          .meContainer {
+            display: flex;
+            align-items: center;
+            width:50%;
+        
+        
+            /* gap: 1rem; */
+            margin-left:1%;
+            
+            
+          }
           .imageContainer {
             display: flex;
             width:50%;
@@ -609,8 +666,21 @@
            }
           
           .image {
-            width: 100px;
-            height:100px;
+            width: 20%;
+            height:20%;
+            color:rgb(0, 0, 16);
+        
+          }
+          .icon {
+            width: 50%;
+            height:50%;
+            color:rgb(0, 0, 16);
+        
+          }
+          .me{
+            width: 25%;
+            height:25%;
+            color:rgb(0, 0, 16);
         
           }
           
@@ -626,6 +696,9 @@
         
           .image:hover {
             cursor: pointer;
+            transform:scale(1.1);
+            
+
           }
         
           .footer {
