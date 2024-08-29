@@ -34,9 +34,10 @@
             
           }
           .me{
-            width: 25%;
-            height:25%;
+            width: 90%;
             color:rgb(0, 0, 16);
+        
+  border-radius: 20%;
             
         
           }
@@ -221,10 +222,10 @@
           }
           .meContainer {
             display: flex;
-            /* gap:1rem; */
+            gap:1rem;
             margin-left:5%;
             margin-right:5%;
-            /* flex-direction: column; */
+            flex-direction: column;
             
         
             
@@ -442,8 +443,8 @@
             display: flex;
             gap:1rem;
             margin-left:5%;
-            margin-right:5%;
             flex-direction: column;
+            border-radius: 30%;
         
             
             
@@ -477,6 +478,17 @@
             height: 100vh;
             width: 30%;
         
+          }
+          .meContainer {
+            display: flex;
+            align-items: center;
+            width:50%;
+             padding: 10px;
+        
+            gap: 1rem;
+            margin-left:1%;
+            
+            
           }
         
           .aboutMe {
@@ -640,9 +652,9 @@
             display: flex;
             align-items: center;
             width:50%;
+             padding: 10px;
         
-        
-            /* gap: 1rem; */
+            gap: 1rem;
             margin-left:1%;
             
             
@@ -651,20 +663,27 @@
             display: flex;
             width:50%;
         
-        
             gap: 1rem;
             margin-left:1%;
             
             
           }
+          .imageContainer:hover{
+
+
+            cursor: pointer;
+          }
+          /* .b{
+            border:1px dotted white;
+          } */
            .icons{
             display: flex;
-            font-size: 30px;
-            margin:10px;
-            gap:1rem;
+         font-size: 250px;
           color:rgba(0, 0, 40, 0.702);
            }
-          
+          .icons:hover{
+            transform: scale(1.2);
+          }
           .image {
             width: 20%;
             height:20%;
@@ -681,6 +700,7 @@
             width: 25%;
             height:25%;
             color:rgb(0, 0, 16);
+            border-radius: 50%;
         
           }
           

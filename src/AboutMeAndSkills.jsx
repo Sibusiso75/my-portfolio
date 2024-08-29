@@ -17,8 +17,15 @@ function AboutMeAndSkills() {
     </a>
          </h3>
       </div>
-      I am a web developer based in Kariega, Eastern Cape (South Africa). 
-      I love coding, solving problems and working on projects that enhance my skills. I am seeking for a frontend, backend or fullstack opportunity.
+      <div className="meContainer">
+      <img src="./Sibusiso'sPic.png" alt="" className="me"/>
+      <p className="b">
+
+      I'm a web developer based in Uitenhage, Eastern Cape, South Africa. I have developed responsive web applications from meal recipe to ecommerce website. 
+      I'm passionate about developing software and solving problems using technology.
+      </p>
+      
+      </div>
 
        
         <h3>Skills</h3>
