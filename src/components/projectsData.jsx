@@ -8,10 +8,11 @@ const projectsData =[
     {
       "title": "Ecommerce site",
       "imageSrc": Ecommerce,
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "Developed an ecommerce website where users can browse, search, filter and add products to their shopping cart. Implemented cart functionality, allowing users to increase and decrease quantity ",
       "skills": [ "React", "CSS", "Node JS"],
-      "demo": "https://jobsearchapp-aaoq.onrender.com/",
-      "source": "https://www.github.com"
+      "demo":"https://ecommerce-g5is.onrender.com/", 
+
+      "source": "https://www.github.com/Sibusiso75/s-ecommerce.git"
     },
     {
       "title": "Meal recipe app",
@@ -24,10 +25,10 @@ const projectsData =[
     {
       "title": "Job search app",
       "imageSrc": JobSearch,
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "'m developing a fullstack job search application where job seekers can create their profiles, search, browse, apply for jobs and write about what's on their mind. (website in progress",
       "skills": ["React", "Express", "Node JS", "MongoDB"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "demo": "https://jobsearchapp-aaoq.onrender.com/",
+      "source": "https://www.github.com/Sibusiso75"
     }
   ]
 export default projectsData
