@@ -20,15 +20,15 @@ const projectsData =[
       "description": "I have used a third party API to create a meal recipe website that prepares people to cook meals around the world by just following instructions and using specified ingredients.",
       "skills": ["React JS", "API"],
       "demo": "https://s-mealrecipe.onrender.com/",
-      "source": "https://www.github.com"
+     "source": "https://www.github.com"
     },
-    {
-      "title": "Job search app",
-      "imageSrc": JobSearch,
-      "description": "'m developing a fullstack job search application where job seekers can create their profiles, search, browse, apply for jobs and write about what's on their mind. (website in progress",
-      "skills": ["React", "Express", "Node JS", "MongoDB"],
-      "demo": "https://jobsearchapp-aaoq.onrender.com/",
-      "source": "https://www.github.com/Sibusiso75"
-    }
+    // {
+    //   "title": "Job search app",
+    //   "imageSrc": JobSearch,
+    //   "description": "'m developing a fullstack job search application where job seekers can create their profiles, search, browse, apply for jobs and write about what's on their mind. (website in progress",
+    //   "skills": ["React", "Express", "Node JS", "MongoDB"],
+    //   "demo": "https://jobsearchapp-aaoq.onrender.com/",
+    //   "source": "https://www.github.com/Sibusiso75"
+    // }
   ]
 export default projectsData
