@@ -12,17 +12,15 @@ export const Navbar = () => {
         Portfolio
       </a>
       <div className={styles.menu}>
-        <img
+        <button
           className={styles.menuBtn}
-          src={
-            menuOpen
-              ? <FaRegWindowClose/>
-              : <FiMenu />
+        
 
-          }
-          alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
-        />
+        >
+    {menuOpen? <FaRegWindowClose/>: <FiMenu />
+    }
+        </button>
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
