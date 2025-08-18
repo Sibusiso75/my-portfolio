@@ -1,34 +1,36 @@
-import mealRecipe from "../assets/top-view-food-ingredients-with-vegetable-soup-bowl-notebook.jpg"
-import Ecommerce from "../assets/cropped-image-woman-inputting-card-information-key-phone-laptop-while-shopping-online.jpg"
-import JobSearch from "../assets/career-employment-occupation-recruitment-work-concept.jpg"
+import mealRecipe from "../assets/mealRecipe.jpg"
+import AIResume from "../assets/AiResume.jpg"
+import booking from "../assets/bookingImage.jpg"
 
 
 const projectsData =[
-    
-    {
-      "title": "Ecommerce site",
-      "imageSrc": Ecommerce,
-      "description": "Developed an ecommerce website where users can browse, search, filter and add products to their shopping cart. Implemented cart functionality, allowing users to increase and decrease quantity ",
-      "skills": [ "React", "CSS", "Node JS"],
-      "demo":"https://ecommerce-g5is.onrender.com/", 
-
-      "source": "https://www.github.com/Sibusiso75/s-ecommerce.git"
+   {
+      "title": "Booking App",
+      "imageSrc": booking,
+      "description": "I'm developing a fullstack booking application using MERN stack ",
+      "skills": ["React", "Express", "Node JS", "MongoDB"],
+      "demo": "https://booking-app-r93n.onrender.com",
+      "source": "https://www.github.com/Sibusiso75/booking-app.git"
     },
-    {
+     {
+      "title": "AI resume app",
+      "imageSrc": AIResume,
+      "description": "Building an AI-powered resume application that allowes users to upload their resumes, receive am ATS score and obtain feedback on how to enhance their resumes",
+      "skills": [ "React", "Typescript"],
+      "demo":"https://ai-resume-analyzer-pied.vercel.app", 
+
+      "source": "https://www.github.com/Sibusiso75/ai-resume-analyzer.git"
+    },
+     {
       "title": "Meal recipe app",
       "imageSrc": mealRecipe,
       "description": "I have used a third party API to create a meal recipe website that prepares people to cook meals around the world by just following instructions and using specified ingredients.",
-      "skills": ["React JS", "API"],
-      "demo": "https://s-mealrecipe.onrender.com/",
-     "source": "https://www.github.com"
+      "skills": ["React JS", "API intergration"],
+      "demo": "https://s-mealrecipe.onrender.com",
+     "source": "https://www.github.com/Sibusiso75/meal-recipe.git"
     },
-    // {
-    //   "title": "Job search app",
-    //   "imageSrc": JobSearch,
-    //   "description": "'m developing a fullstack job search application where job seekers can create their profiles, search, browse, apply for jobs and write about what's on their mind. (website in progress",
-    //   "skills": ["React", "Express", "Node JS", "MongoDB"],
-    //   "demo": "https://jobsearchapp-aaoq.onrender.com/",
-    //   "source": "https://www.github.com/Sibusiso75"
-    // }
+   
+   
+   
   ]
 export default projectsData

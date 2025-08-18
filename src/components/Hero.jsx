@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./Hero.module.css";
 import mySelf from "../assets/SibusisoMatebese'sPicture.png"
-import myResume from "../assets/SibusisoMatebese'sResume.pdf"
+import myResume from "../assets/SIBUSISOMATEBESE'SRESUME-.pdf"
 import {FaDownload} from "react-icons/fa"
 
 export const Hero = () => {
