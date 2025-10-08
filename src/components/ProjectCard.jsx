@@ -1,7 +1,6 @@
-import React from "react";
 
 import styles from "./ProjectCard.module.css";
-
+import {FaGithub, FaLink} from "react-icons/fa"
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
@@ -10,9 +9,9 @@ export const ProjectCard = ({
      <img
         src={imageSrc}
         alt=""
-      
+        
         className={styles.image}
-      /> 
+        /> 
       
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
@@ -27,10 +26,10 @@ export const ProjectCard = ({
       </ul>
       <div className={styles.links}>
         <a href={demo} className={styles.link}>
-          Demo
+        Repo <FaGithub/>
         </a>
         <a href={source} className={styles.link}>
-          Source
+         Website <FaLink/>
         </a>
       </div>
     </div>
